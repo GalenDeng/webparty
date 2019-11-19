@@ -12,7 +12,7 @@
 * `mac中可以使用 mysqlWorkbench 这个可视化software`
 
 * `html中使用 jq 发送 json字符串给 python 后端`
-* []()
+* [html调用jq发送json字符串给 python 后端](https://github.com/GalenDeng/webparty/blob/master/index.html)
 
 * `查询字段content`
 * use Party2020;
