@@ -1,0 +1,1450 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 11:48:47 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 2756)
+uwsgi socket 0 bound to TCP address 127.0.0.1:53716 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f8e4e1023c0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f8e4e1023c0 pid: 2755 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 2755, cores: 1)
+spawned uWSGI worker 2 (pid: 2757, cores: 1)
+spawned uWSGI worker 3 (pid: 2758, cores: 1)
+spawned uWSGI worker 4 (pid: 2759, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 2758|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Wed Nov 20 03:49:22 2019] GET / => generated 1263 bytes in 47 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 2759|app: 0|req: 1/2] 127.0.0.1 () {36 vars in 648 bytes} [Wed Nov 20 03:49:23 2019] GET /favicon.ico => generated 2102 bytes in 30 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 11:53:12 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8089).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 11:53:31 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 2790)
+uwsgi socket 0 bound to TCP address 127.0.0.1:53803 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fb511502b80
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fb511502b80 pid: 2789 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 2789, cores: 1)
+spawned uWSGI worker 2 (pid: 2791, cores: 1)
+spawned uWSGI worker 3 (pid: 2792, cores: 1)
+spawned uWSGI worker 4 (pid: 2793, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 11:54:01 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 2811)
+uwsgi socket 0 bound to TCP address 127.0.0.1:53814 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7ff65540b670
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7ff65540b670 pid: 2810 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 2810, cores: 1)
+spawned uWSGI worker 2 (pid: 2812, cores: 1)
+spawned uWSGI worker 3 (pid: 2813, cores: 1)
+spawned uWSGI worker 4 (pid: 2814, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 2810|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Wed Nov 20 03:54:16 2019] GET / => generated 1394 bytes in 38 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 11:55:33 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 2832)
+uwsgi socket 0 bound to TCP address 127.0.0.1:53826 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fdf89c0b1b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fdf89c0b1b0 pid: 2831 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 2831, cores: 1)
+spawned uWSGI worker 2 (pid: 2833, cores: 1)
+spawned uWSGI worker 3 (pid: 2834, cores: 1)
+spawned uWSGI worker 4 (pid: 2835, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 11:56:14 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 2854)
+uwsgi socket 0 bound to TCP address 127.0.0.1:53833 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f821de01d90
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f821de01d90 pid: 2853 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 2853, cores: 1)
+spawned uWSGI worker 2 (pid: 2855, cores: 1)
+spawned uWSGI worker 3 (pid: 2856, cores: 1)
+spawned uWSGI worker 4 (pid: 2857, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 2856|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Wed Nov 20 03:56:26 2019] GET / => generated 1266 bytes in 42 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 13:16:27 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 3290)
+uwsgi socket 0 bound to TCP address 127.0.0.1:54954 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7ffed7c0b150
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7ffed7c0b150 pid: 3289 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 3289, cores: 1)
+spawned uWSGI worker 2 (pid: 3291, cores: 1)
+spawned uWSGI worker 3 (pid: 3292, cores: 1)
+spawned uWSGI worker 4 (pid: 3293, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 3292|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Wed Nov 20 05:16:48 2019] GET / => generated 1266 bytes in 47 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 13:18:20 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 3311)
+uwsgi socket 0 bound to TCP address 127.0.0.1:54968 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fd4f540ad10
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fd4f540ad10 pid: 3310 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 3310, cores: 1)
+spawned uWSGI worker 2 (pid: 3312, cores: 1)
+spawned uWSGI worker 3 (pid: 3313, cores: 1)
+spawned uWSGI worker 4 (pid: 3314, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 3313|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Wed Nov 20 05:18:39 2019] GET / => generated 1305 bytes in 51 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 13:37:00 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 3357)
+uwsgi socket 0 bound to TCP address 127.0.0.1:55116 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fe6cbc0b0c0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fe6cbc0b0c0 pid: 3356 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 3356, cores: 1)
+spawned uWSGI worker 2 (pid: 3358, cores: 1)
+spawned uWSGI worker 3 (pid: 3359, cores: 1)
+spawned uWSGI worker 4 (pid: 3360, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 14:05:26 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 3594)
+uwsgi socket 0 bound to TCP address 127.0.0.1:55578 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f8827502890
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f8827502890 pid: 3593 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 3593, cores: 1)
+spawned uWSGI worker 2 (pid: 3595, cores: 1)
+spawned uWSGI worker 3 (pid: 3596, cores: 1)
+spawned uWSGI worker 4 (pid: 3597, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 3597|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 709 bytes} [Wed Nov 20 06:05:55 2019] GET / => generated 1305 bytes in 50 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 14:47:12 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 3804)
+uwsgi socket 0 bound to TCP address 127.0.0.1:56216 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f9fdad02c00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f9fdad02c00 pid: 3803 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 3803, cores: 1)
+spawned uWSGI worker 2 (pid: 3805, cores: 1)
+spawned uWSGI worker 3 (pid: 3806, cores: 1)
+spawned uWSGI worker 4 (pid: 3807, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 3807|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Wed Nov 20 06:47:55 2019] GET / => generated 1305 bytes in 52 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 3805|app: 0|req: 1/2] 127.0.0.1 () {36 vars in 648 bytes} [Wed Nov 20 06:47:56 2019] GET /favicon.ico => generated 2102 bytes in 35 msecs (HTTP/1.1 404) 4 headers in 116 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 14:53:12 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 3856)
+uwsgi socket 0 bound to TCP address 127.0.0.1:56371 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fdeaa502780
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fdeaa502780 pid: 3855 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 3855, cores: 1)
+spawned uWSGI worker 2 (pid: 3857, cores: 1)
+spawned uWSGI worker 3 (pid: 3858, cores: 1)
+spawned uWSGI worker 4 (pid: 3859, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 3858|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Wed Nov 20 06:53:27 2019] GET / => generated 1302 bytes in 50 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 3858|app: 0|req: 2/2] 127.0.0.1 () {36 vars in 648 bytes} [Wed Nov 20 06:53:28 2019] GET /favicon.ico => generated 2102 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 116 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 14:55:53 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 3930)
+uwsgi socket 0 bound to TCP address 127.0.0.1:56400 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7ff46a40a410
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7ff46a40a410 pid: 3929 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 3929, cores: 1)
+spawned uWSGI worker 2 (pid: 3931, cores: 1)
+spawned uWSGI worker 3 (pid: 3932, cores: 1)
+spawned uWSGI worker 4 (pid: 3933, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 3931|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Wed Nov 20 06:56:09 2019] GET / => generated 1292 bytes in 40 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 14:59:40 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 3978)
+uwsgi socket 0 bound to TCP address 127.0.0.1:56430 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fd9ffc0af80
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fd9ffc0af80 pid: 3977 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 3977, cores: 1)
+spawned uWSGI worker 2 (pid: 3979, cores: 1)
+spawned uWSGI worker 3 (pid: 3980, cores: 1)
+spawned uWSGI worker 4 (pid: 3981, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 3980|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Wed Nov 20 06:59:59 2019] GET / => generated 1302 bytes in 55 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 15:32:33 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 4055)
+uwsgi socket 0 bound to TCP address 127.0.0.1:56717 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fb780602910
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fb780602910 pid: 4054 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4054, cores: 1)
+spawned uWSGI worker 2 (pid: 4056, cores: 1)
+spawned uWSGI worker 3 (pid: 4057, cores: 1)
+spawned uWSGI worker 4 (pid: 4058, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 15:34:02 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8089).
+bind(): Address already in use [core/socket.c line 769]
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 4054|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Wed Nov 20 07:34:13 2019] GET / => generated 1302 bytes in 45 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 15:36:29 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 4098)
+uwsgi socket 0 bound to TCP address 127.0.0.1:56766 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fc93840b680
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fc93840b680 pid: 4097 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4097, cores: 1)
+spawned uWSGI worker 2 (pid: 4099, cores: 1)
+spawned uWSGI worker 3 (pid: 4100, cores: 1)
+spawned uWSGI worker 4 (pid: 4101, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 4101|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Wed Nov 20 07:36:41 2019] GET / => generated 1309 bytes in 41 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 15:41:20 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 4122)
+uwsgi socket 0 bound to TCP address 127.0.0.1:56869 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fb746d081e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fb746d081e0 pid: 4121 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4121, cores: 1)
+spawned uWSGI worker 2 (pid: 4123, cores: 1)
+spawned uWSGI worker 3 (pid: 4124, cores: 1)
+spawned uWSGI worker 4 (pid: 4125, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 4124|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Wed Nov 20 07:41:34 2019] GET / => generated 1310 bytes in 44 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 16:22:37 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 4185)
+uwsgi socket 0 bound to TCP address 127.0.0.1:57494 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fb423602220
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fb423602220 pid: 4184 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4184, cores: 1)
+spawned uWSGI worker 2 (pid: 4186, cores: 1)
+spawned uWSGI worker 3 (pid: 4187, cores: 1)
+spawned uWSGI worker 4 (pid: 4188, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 16:52:00 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 4268)
+uwsgi socket 0 bound to TCP address 127.0.0.1:58206 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7febd2d01c80
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7febd2d01c80 pid: 4267 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4267, cores: 1)
+spawned uWSGI worker 2 (pid: 4269, cores: 1)
+spawned uWSGI worker 3 (pid: 4270, cores: 1)
+spawned uWSGI worker 4 (pid: 4271, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 4269|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Wed Nov 20 08:52:35 2019] GET / => generated 1310 bytes in 52 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 17:11:48 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 4314)
+uwsgi socket 0 bound to TCP address 127.0.0.1:58366 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fc6f2c0b1a0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fc6f2c0b1a0 pid: 4313 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4313, cores: 1)
+spawned uWSGI worker 2 (pid: 4315, cores: 1)
+spawned uWSGI worker 3 (pid: 4316, cores: 1)
+spawned uWSGI worker 4 (pid: 4317, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 4316|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 708 bytes} [Wed Nov 20 09:12:04 2019] GET / => generated 1310 bytes in 55 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 4316|app: 0|req: 2/2] 127.0.0.1 () {36 vars in 647 bytes} [Wed Nov 20 09:12:04 2019] GET /favicon.ico => generated 2102 bytes in 5 msecs (HTTP/1.1 404) 4 headers in 116 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 17:23:30 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 4402)
+uwsgi socket 0 bound to TCP address 127.0.0.1:58543 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f9894501ff0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f9894501ff0 pid: 4401 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4401, cores: 1)
+spawned uWSGI worker 2 (pid: 4403, cores: 1)
+spawned uWSGI worker 3 (pid: 4404, cores: 1)
+spawned uWSGI worker 4 (pid: 4405, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 4404|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Wed Nov 20 09:23:44 2019] GET / => generated 1310 bytes in 41 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 17:26:51 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 4435)
+uwsgi socket 0 bound to TCP address 127.0.0.1:58649 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fed8d0028a0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fed8d0028a0 pid: 4434 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4434, cores: 1)
+spawned uWSGI worker 2 (pid: 4436, cores: 1)
+spawned uWSGI worker 3 (pid: 4437, cores: 1)
+spawned uWSGI worker 4 (pid: 4438, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 4436|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 709 bytes} [Wed Nov 20 09:27:10 2019] GET / => generated 1309 bytes in 41 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 20 17:29:21 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 4459)
+uwsgi socket 0 bound to TCP address 127.0.0.1:58665 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fcc0bf023c0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fcc0bf023c0 pid: 4458 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4458, cores: 1)
+spawned uWSGI worker 2 (pid: 4460, cores: 1)
+spawned uWSGI worker 3 (pid: 4461, cores: 1)
+spawned uWSGI worker 4 (pid: 4462, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 4460|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Wed Nov 20 09:29:37 2019] GET / => generated 1310 bytes in 41 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Nov 21 08:56:51 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 1661)
+uwsgi socket 0 bound to TCP address 127.0.0.1:50743 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fcd85c0a830
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fcd85c0a830 pid: 1660 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 1660, cores: 1)
+spawned uWSGI worker 2 (pid: 1662, cores: 1)
+spawned uWSGI worker 3 (pid: 1663, cores: 1)
+spawned uWSGI worker 4 (pid: 1664, cores: 1)
+Not Found: /favicon.ico
+[pid: 1660|app: 0|req: 1/1] 127.0.0.1 () {36 vars in 648 bytes} [Thu Nov 21 00:57:19 2019] GET /favicon.ico => generated 2102 bytes in 41 msecs (HTTP/1.1 404) 4 headers in 116 bytes (2 switches on core 0)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 1663|app: 0|req: 1/2] 127.0.0.1 () {38 vars in 710 bytes} [Thu Nov 21 00:57:38 2019] GET / => generated 1302 bytes in 43 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 1664|app: 0|req: 1/3] 127.0.0.1 () {38 vars in 710 bytes} [Thu Nov 21 01:00:46 2019] GET / => generated 1302 bytes in 42 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Nov 21 09:50:58 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 3624)
+uwsgi socket 0 bound to TCP address 127.0.0.1:51798 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fde8140b3e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fde8140b3e0 pid: 3623 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 3623, cores: 1)
+spawned uWSGI worker 2 (pid: 3625, cores: 1)
+spawned uWSGI worker 3 (pid: 3626, cores: 1)
+spawned uWSGI worker 4 (pid: 3627, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 3625|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Thu Nov 21 01:51:10 2019] GET / => generated 1305 bytes in 42 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Nov 21 10:18:57 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 3686)
+uwsgi socket 0 bound to TCP address 127.0.0.1:52108 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f801f502670
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f801f502670 pid: 3685 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 3685, cores: 1)
+spawned uWSGI worker 2 (pid: 3687, cores: 1)
+spawned uWSGI worker 3 (pid: 3688, cores: 1)
+spawned uWSGI worker 4 (pid: 3689, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Nov 21 10:22:22 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8089).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Nov 21 10:22:27 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 3723)
+uwsgi socket 0 bound to TCP address 127.0.0.1:52181 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7ff78be02a60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7ff78be02a60 pid: 3722 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 3722, cores: 1)
+spawned uWSGI worker 2 (pid: 3724, cores: 1)
+spawned uWSGI worker 3 (pid: 3725, cores: 1)
+spawned uWSGI worker 4 (pid: 3726, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Nov 21 10:25:42 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 3750)
+uwsgi socket 0 bound to TCP address 127.0.0.1:52192 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f83de40afd0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f83de40afd0 pid: 3749 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 3749, cores: 1)
+spawned uWSGI worker 2 (pid: 3751, cores: 1)
+spawned uWSGI worker 3 (pid: 3752, cores: 1)
+spawned uWSGI worker 4 (pid: 3753, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Nov 21 11:47:44 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 4069)
+uwsgi socket 0 bound to TCP address 127.0.0.1:53147 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fe4e35092f0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fe4e35092f0 pid: 4068 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4068, cores: 1)
+spawned uWSGI worker 2 (pid: 4070, cores: 1)
+spawned uWSGI worker 3 (pid: 4071, cores: 1)
+spawned uWSGI worker 4 (pid: 4072, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Nov 21 11:51:52 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 4096)
+uwsgi socket 0 bound to TCP address 127.0.0.1:53166 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f8202f02550
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f8202f02550 pid: 4095 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4095, cores: 1)
+spawned uWSGI worker 2 (pid: 4097, cores: 1)
+spawned uWSGI worker 3 (pid: 4098, cores: 1)
+spawned uWSGI worker 4 (pid: 4099, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Nov 21 12:02:07 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 4135)
+uwsgi socket 0 bound to TCP address 127.0.0.1:53222 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fb2d6502cd0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fb2d6502cd0 pid: 4134 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4134, cores: 1)
+spawned uWSGI worker 2 (pid: 4136, cores: 1)
+spawned uWSGI worker 3 (pid: 4137, cores: 1)
+spawned uWSGI worker 4 (pid: 4138, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 4134|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Thu Nov 21 04:02:24 2019] GET / => generated 1312 bytes in 37 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Nov 21 13:14:21 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 4637)
+uwsgi socket 0 bound to TCP address 127.0.0.1:53543 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fa909e02890
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fa909e02890 pid: 4636 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4636, cores: 1)
+spawned uWSGI worker 2 (pid: 4638, cores: 1)
+spawned uWSGI worker 3 (pid: 4639, cores: 1)
+spawned uWSGI worker 4 (pid: 4640, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 4638|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Thu Nov 21 05:14:44 2019] GET / => generated 1312 bytes in 50 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Nov 21 13:27:01 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 4697)
+uwsgi socket 0 bound to TCP address 127.0.0.1:53750 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fce5340b2a0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fce5340b2a0 pid: 4696 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4696, cores: 1)
+spawned uWSGI worker 2 (pid: 4698, cores: 1)
+spawned uWSGI worker 3 (pid: 4699, cores: 1)
+spawned uWSGI worker 4 (pid: 4700, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 4699|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Thu Nov 21 05:27:19 2019] GET / => generated 1312 bytes in 48 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Nov 21 13:30:43 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 4730)
+uwsgi socket 0 bound to TCP address 127.0.0.1:53766 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fe080602610
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fe080602610 pid: 4729 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4729, cores: 1)
+spawned uWSGI worker 2 (pid: 4731, cores: 1)
+spawned uWSGI worker 3 (pid: 4732, cores: 1)
+spawned uWSGI worker 4 (pid: 4733, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 4731|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 709 bytes} [Thu Nov 21 05:30:56 2019] GET / => generated 1312 bytes in 40 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Nov 21 13:33:21 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 4751)
+uwsgi socket 0 bound to TCP address 127.0.0.1:53782 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f9457f023c0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f9457f023c0 pid: 4750 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4750, cores: 1)
+spawned uWSGI worker 2 (pid: 4752, cores: 1)
+spawned uWSGI worker 3 (pid: 4753, cores: 1)
+spawned uWSGI worker 4 (pid: 4754, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 4750|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 709 bytes} [Thu Nov 21 05:34:12 2019] GET / => generated 1347 bytes in 38 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Nov 21 13:38:27 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 4818)
+uwsgi socket 0 bound to TCP address 127.0.0.1:53885 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fbe29101b90
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fbe29101b90 pid: 4817 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4817, cores: 1)
+spawned uWSGI worker 2 (pid: 4819, cores: 1)
+spawned uWSGI worker 3 (pid: 4820, cores: 1)
+spawned uWSGI worker 4 (pid: 4821, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 4819|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Thu Nov 21 05:38:42 2019] GET / => generated 1352 bytes in 50 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 4821|app: 0|req: 1/2] 127.0.0.1 () {38 vars in 710 bytes} [Thu Nov 21 05:38:56 2019] GET / => generated 1352 bytes in 39 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Nov 21 13:39:36 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 4847)
+uwsgi socket 0 bound to TCP address 127.0.0.1:53897 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fee26502e50
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fee26502e50 pid: 4846 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4846, cores: 1)
+spawned uWSGI worker 2 (pid: 4848, cores: 1)
+spawned uWSGI worker 3 (pid: 4849, cores: 1)
+spawned uWSGI worker 4 (pid: 4850, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 4850|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Thu Nov 21 05:39:48 2019] GET / => generated 1343 bytes in 41 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Nov 21 13:53:01 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 4915)
+uwsgi socket 0 bound to TCP address 127.0.0.1:54028 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f8c4a40b420
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f8c4a40b420 pid: 4914 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4914, cores: 1)
+spawned uWSGI worker 2 (pid: 4916, cores: 1)
+spawned uWSGI worker 3 (pid: 4917, cores: 1)
+spawned uWSGI worker 4 (pid: 4918, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 4918|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 709 bytes} [Thu Nov 21 05:53:22 2019] GET / => generated 1375 bytes in 48 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Nov 21 13:55:42 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 4939)
+uwsgi socket 0 bound to TCP address 127.0.0.1:54045 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fdc9dd02e60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fdc9dd02e60 pid: 4938 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4938, cores: 1)
+spawned uWSGI worker 2 (pid: 4940, cores: 1)
+spawned uWSGI worker 3 (pid: 4941, cores: 1)
+spawned uWSGI worker 4 (pid: 4942, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 4938|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 709 bytes} [Thu Nov 21 05:55:58 2019] GET / => generated 1380 bytes in 38 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Nov 21 14:01:15 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 November 2019 05:25:50
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5frontend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8089 fd 4
+spawned uWSGI http 1 (pid: 4978)
+uwsgi socket 0 bound to TCP address 127.0.0.1:54064 (port auto-assigned) fd 3
+Python version: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fd917f02c10
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291552 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fd917f02c10 pid: 4977 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4977, cores: 1)
+spawned uWSGI worker 2 (pid: 4979, cores: 1)
+spawned uWSGI worker 3 (pid: 4980, cores: 1)
+spawned uWSGI worker 4 (pid: 4981, cores: 1)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
+[pid: 4980|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Thu Nov 21 06:01:28 2019] GET / => generated 1543 bytes in 41 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)

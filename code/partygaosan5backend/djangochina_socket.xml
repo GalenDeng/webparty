@@ -1,0 +1,9 @@
+
+<uwsgi>
+    <http>:8077</http>
+    <chdir>/Users/admin/Desktop/partyweb/code/partygaosan5backend</chdir>
+    <module>django_wsgi</module>
+    <processes>4</processes> <!-- 进程数 -->
+    <daemonize>uwsgi.log</daemonize>
+</uwsgi>
+
