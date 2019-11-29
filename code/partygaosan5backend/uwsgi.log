@@ -7042,3 +7042,22 @@ spawned uWSGI worker 2 (pid: 4988, cores: 1)
 spawned uWSGI worker 3 (pid: 4989, cores: 1)
 spawned uWSGI worker 4 (pid: 4990, cores: 1)
 [pid: 4989|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 774 bytes} [Thu Nov 21 14:01:30 2019] POST /name/submitmsg/ => generated 78 bytes in 212 msecs (HTTP/1.1 400) 7 headers in 237 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Nov 29 11:42:38 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 31 October 2019 08:18:43
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/webparty/code/partygaosan5backend
+detected binary path: /Users/admin/Desktop/partyweb/code/partygaosan5backend/venv/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/webparty/code/partygaosan5backend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 12544
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 769]

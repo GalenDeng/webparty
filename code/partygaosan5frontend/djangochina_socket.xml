@@ -1,6 +1,6 @@
 <uwsgi>
     <http>:8089</http>
-    <chdir>/Users/admin/Desktop/partyweb/code/partygaosan5frontend</chdir>
+    <chdir>/Users/admin/Desktop/partyweb/webparty/code/partygaosan5frontend</chdir>
     <module>django_wsgi</module>
     <processes>4</processes> <!-- 进程数 -->
     <daemonize>uwsgi.log</daemonize>

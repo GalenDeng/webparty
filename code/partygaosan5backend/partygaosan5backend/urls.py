@@ -18,6 +18,10 @@ from django.urls import path, include, re_path
 from rest_framework import routers
 from signuprecord import  views as view
 
+from django.conf.urls.static import static
+from django.conf import settings
+
+
 router = routers.DefaultRouter()
 router.register(r'name', view.NameViewSet, base_name='name')
 
@@ -27,3 +31,5 @@ urlpatterns = [
 ]
 
 urlpatterns += router.urls
+
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

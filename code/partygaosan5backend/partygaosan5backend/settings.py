@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'simpleui',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -103,7 +104,7 @@ WSGI_APPLICATION = 'partygaosan5backend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'NAME': 'Party2020',  # 数据库名
+        'NAME': 'Party',  # 数据库名
         'ENGINE': 'django.db.backends.mysql',
         'USER': 'root',  # 用户名
         'PASSWORD': '',  # 密码
@@ -152,8 +153,10 @@ USE_TZ = False  # 默认是True, 时间是UTC时间，由于我们要用到本�
 
 # 默认文件路径设置
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static').replace('', '/')
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+]
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media').replace('\\', '/')
 

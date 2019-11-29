@@ -10,4 +10,7 @@ class PartyName(models.Model):
         #return  self.name
          return  self
 
+    class Meta:
+        db_table = 'party2020_record'  # 指定这个类在数据库中表单的名字
+
 

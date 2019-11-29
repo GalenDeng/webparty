@@ -1448,3 +1448,22 @@ spawned uWSGI worker 4 (pid: 4981, cores: 1)
 'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
 'latin-1' codec can't encode character '\u2026' in position 32: ordinal not in range(256)
 [pid: 4980|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Thu Nov 21 06:01:28 2019] GET / => generated 1543 bytes in 41 msecs (HTTP/1.1 200) 4 headers in 124 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Nov 29 11:45:40 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 02 July 2019 08:33:48
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: admindeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/admin/Desktop/partyweb/webparty/code/partygaosan5frontend
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.7/bin/uwsgi
+chdir() to /Users/admin/Desktop/partyweb/webparty/code/partygaosan5frontend
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 12544
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8089).
+bind(): Address already in use [core/socket.c line 769]
