@@ -22,5 +22,13 @@
 * use Party2020;
 * delete  from signuprecord_partyname where  name= "GalenDeng" ;
 
+* `查看、修改 server接受的数据包大小`
+```
+* mysql --verbose --help | grep my.cnf  // 查看 mysql的配置文件的位置
+* 修改 my.cnf 这个配置文件， 如: vim /usr/local/etc/my.cnf
+* 添加 max_allowed_packet=20M   // 最大接收数据包是 20M 
+* show VARIABLES like '%max_allowed_packet%'; // 查看 mysql 接受的数据包大小
+```
+
 
 
